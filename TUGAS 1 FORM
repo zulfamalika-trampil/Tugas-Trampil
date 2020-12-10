@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Membuat Form</title>
+</head>
+<body>
+    <p>Form Mahasiswa/I Baru <xmp>Biodata Mahasiswa/I</xmp></p>
+
+    <form action="hal_tujuan.html" type="post">
+        <label>Type Text</label><input type="text"><br>
+        <label>Type Checkbox</label><input type="checkbox" value="1" checked>Pilih <input type="checkbox" value="2">Pilih2<br>
+        <label>Type Radio Button</label><input type="radio" value="1"> Pilih1<input type="radio" value="2" checked> Pilih2<br>
+        <label>Type File</label><input type="file"> Pilih<br>
+        <label>Type Search</label><input type="search"> Pilih<br>
+        <label>Type Submit</label><input type="submit" value="Simpan"><br>
+        <label>Type Button</label><input type="button" value="Simpan"><br>
+        <label>Type Reset</label><input type="reset" value="Reset"><br>
+
+        <label>Dropdown List</label>
+        <select>
+            <option value="">--pilih--</option>
+            <option value="pilihan1" selected>Pilihan 1</option>
+            <option value="pilihan2">Pilihan 2</option>
+            <option value="pilihan3">Pilihan 2</option>
+        </select>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" width="250px" name="nama" id="nama" class="nama"></td>
+            </tr>
+			<tr>
+                <td>Tempat Lahir</td>
+                <td><input type="text" width="250px" name="tempat lahir" id="tempat lahir" class="tempat lahir"></td>
+            </tr>
+			<tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" ></td>
+            </tr>
+			<tr>
+                <td>Agama</td>
+                <td><input type="text" width="250px" name="agama" id="agama" class="agama"</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><input type="text" width="250px" name="alamat" id="alamat" class="alamat"></td>
+            </tr>
+            <tr>
+                <td>Asal Sekolah</td>
+                <td>
+                    <select>
+                        <option value="">--pilih--</option>
+                        <option value="pilihan1">SMP</option>
+                        <option value="pilihan2">MTS</option>
+                        <option value="pilihan3">PONDOK</option>
+                    </select>
+                </td>
+            </tr>
+			 <tr>
+                <td>Jurusan</td>
+                <td>
+                    <select>
+                        <option value="">--pilih--</option>
+                        <option value="pilihan1">IPA</option>
+                        <option value="pilihan2">IPS</option>
+                        <option value="pilihan3">IIK</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" ></td>
+            </tr>
+			<tr>
+                <td>No.Handphone/Wa</td>
+                <td><input type="text" width="250px" name="No.Handphone/Wa" id="No.Handphone/Wa" class="No.Handphone/Wa"></td>
+            </tr>
+			<tr>
+				<td>
+				<label>Pas Photo 3 x 4</label><input type="file"> 
+				</td>
+			</tr>
+            <tr>
+                <td colspan="2" aling="center">
+                    <input type="submit" value="SIMPAN">
+                    <input type="reset" value="RESET">
+                    <input type="button" value="BATAL">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
